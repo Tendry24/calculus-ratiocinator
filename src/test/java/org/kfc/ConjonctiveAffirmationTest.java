@@ -23,6 +23,7 @@ public class ConjonctiveAffirmationTest {
         assertEquals(resultatAttendu, et.getStatus(louEstPauvre, louEstGenereux));
     }
 
+    @Test
     void lou_est_beau_donc_lou_est_pauvre(){
         Affirmation louEstBeau = new Verité("Lou est beau");
         Affirmation louEstPauvre = new Mensonge("Lou est pauvre");
