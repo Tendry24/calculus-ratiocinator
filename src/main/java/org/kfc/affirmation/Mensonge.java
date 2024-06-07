@@ -9,4 +9,9 @@ public final class Mensonge extends Affirmation {
     public String getAffirmationStatus() {
         return "faux";
     }
+
+    @Override
+    public String getStatus() {
+        return "faux";
+    }
 }

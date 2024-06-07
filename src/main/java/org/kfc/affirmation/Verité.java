@@ -12,4 +12,9 @@ public final class Verité extends Affirmation {
     public String getAffirmationStatus() {
         return "vrai";
     }
+
+    @Override
+    public String getStatus(){
+        return "vrai";
+    }
 }
